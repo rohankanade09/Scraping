@@ -1,0 +1,10 @@
+#settings.py Configuration
+BOT_NAME = 'ScrapyBot'
+SPIDER_MODULES = ['ScrapyTrial.spiders']
+NEWSPIDER_MODULE = 'ScrapyTrial.spiders'
+USER_AGENT = <Browser User Agent>
+ROBOTSTXT_OBEY = True
+CONCURRENT_REQUESTS = 300
+CONCURRENT_REQUESTS_PER_DOMAIN = 300
+CONCURRENT_REQUESTS_PER_IP = 300
+COOKIES_ENABLED = False
